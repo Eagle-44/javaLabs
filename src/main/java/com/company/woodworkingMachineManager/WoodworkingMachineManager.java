@@ -45,7 +45,7 @@ public final class WoodworkingMachineManager {
         return workbenches;
     }
 
-    public Optional<WoodworkingMachine> searchWorkbench(final Companies company, final String purpose) {
-        return workbenches.stream().filter(a -> a.getPurpose().equals(purpose) && a.getManufactureCompany().equals(company)).findAny();
+    public List<WoodworkingMachine> searchWorkbench(final Companies company, final String purpose) {
+        return workbenches.stream().filter(a -> a.getPurpose().equals(purpose) && a.getManufactureCompany().equals(company)).collect(Collectors.toList());
     }
 }
