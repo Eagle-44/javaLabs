@@ -1,4 +1,4 @@
-package com.company.woodworkingMachine;
+package org.alex.rest.models.woodworkingMachine;
 
 
 import lombok.Getter;
