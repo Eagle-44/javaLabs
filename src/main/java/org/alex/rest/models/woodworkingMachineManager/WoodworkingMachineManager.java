@@ -1,4 +1,4 @@
-package com.company.woodworkingMachineManager;
+package org.alex.rest.models.woodworkingMachineManager;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import com.company.woodworkingMachine.WoodworkingMachine;
-import com.company.woodworkingMachine.Companies;
+import org.alex.rest.models.woodworkingMachine.WoodworkingMachine;
+import org.alex.rest.models.woodworkingMachine.Companies;
 
 @Getter
 @NoArgsConstructor

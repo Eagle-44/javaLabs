@@ -1,7 +1,7 @@
-package com.company;
+package org.alex.rest.models;
 
-import com.company.woodworkingMachine.*;
-import com.company.woodworkingMachineManager.WoodworkingMachineManager;
+import org.alex.rest.models.woodworkingMachine.*;
+import org.alex.rest.models.woodworkingMachineManager.WoodworkingMachineManager;
 
 import java.util.ArrayList;
 
